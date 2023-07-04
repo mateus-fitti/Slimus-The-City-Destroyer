@@ -1,0 +1,125 @@
+[gd_scene load_steps=8 format=3 uid="uid://d2qtpsg8mx3v3"]
+
+[ext_resource type="Texture2D" uid="uid://cn8hxauetqh0u" path="res://Assets/Background.png" id="1_j1jer"]
+[ext_resource type="Script" path="res://Scripts/SelectLevel.cs" id="3_8hknm"]
+[ext_resource type="FontFile" uid="uid://bcg4416vahssg" path="res://Assets/Fonts/CONCHARS_x3.png" id="3_c6bdb"]
+[ext_resource type="Texture2D" uid="uid://llrlosc4hbjl" path="res://Levels/level_1.png" id="6_3c5m4"]
+[ext_resource type="FontFile" uid="uid://nlytdu3gdbce" path="res://Assets/Fonts/CONCHARS_x2.png" id="6_ou1ij"]
+[ext_resource type="Script" path="res://Scripts/PlayButton.cs" id="7_h070n"]
+[ext_resource type="Texture2D" uid="uid://0g00x61dlis0" path="res://Levels/level_2.png" id="7_ypld0"]
+
+[node name="Menu" type="Node2D"]
+scale = Vector2(2, 2)
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(250, 150)
+texture = ExtResource("1_j1jer")
+region_enabled = true
+region_rect = Rect2(0, 0, 500, 300)
+
+[node name="Control" type="Control" parent="."]
+custom_minimum_size = Vector2(500, 300)
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 500.0
+offset_bottom = 300.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="CenterContainer" type="CenterContainer" parent="Control"]
+layout_direction = 1
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Button" type="Button" parent="Control/CenterContainer"]
+texture_filter = 1
+layout_mode = 2
+theme_override_fonts/font = ExtResource("6_ou1ij")
+text = "PLAY GAME"
+script = ExtResource("7_h070n")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Control"]
+visible = false
+layout_direction = 1
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("3_8hknm")
+
+[node name="PanelContainer" type="PanelContainer" parent="Control/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control/HBoxContainer/PanelContainer"]
+layout_direction = 1
+layout_mode = 2
+size_flags_vertical = 0
+
+[node name="TextureRect" type="TextureRect" parent="Control/HBoxContainer/PanelContainer/VBoxContainer"]
+layout_direction = 1
+layout_mode = 2
+size_flags_vertical = 3
+texture = ExtResource("6_3c5m4")
+expand_mode = 5
+
+[node name="Button" type="Button" parent="Control/HBoxContainer/PanelContainer"]
+layout_direction = 1
+layout_mode = 2
+size_flags_vertical = 8
+theme_override_fonts/font = ExtResource("6_ou1ij")
+disabled = true
+text = "Level A"
+
+[node name="PanelContainer2" type="PanelContainer" parent="Control/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control/HBoxContainer/PanelContainer2"]
+layout_direction = 1
+layout_mode = 2
+size_flags_vertical = 0
+
+[node name="TextureRect" type="TextureRect" parent="Control/HBoxContainer/PanelContainer2/VBoxContainer"]
+layout_direction = 1
+layout_mode = 2
+size_flags_vertical = 3
+texture = ExtResource("7_ypld0")
+expand_mode = 5
+
+[node name="Button" type="Button" parent="Control/HBoxContainer/PanelContainer2"]
+layout_direction = 1
+layout_mode = 2
+size_flags_vertical = 8
+theme_override_fonts/font = ExtResource("6_ou1ij")
+disabled = true
+text = "Level B"
+
+[node name="Label" type="Label" parent="Control"]
+layout_mode = 2
+offset_left = 33.0
+offset_top = 1.0
+offset_right = 465.0
+offset_bottom = 55.0
+theme_override_fonts/font = ExtResource("3_c6bdb")
+text = "SLIMUS
+THE CITY DESTROYER"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="pressed" from="Control/CenterContainer/Button" to="Control/HBoxContainer" method="OnPlayButtonPressed"]
+[connection signal="pressed" from="Control/CenterContainer/Button" to="Control/CenterContainer/Button" method="OnSelfButtonPressed"]
+[connection signal="pressed" from="Control/HBoxContainer/PanelContainer/Button" to="Control/HBoxContainer" method="OnLv1ButtonPressed"]
+[connection signal="pressed" from="Control/HBoxContainer/PanelContainer2/Button" to="Control/HBoxContainer" method="OnLv2ButtonPressed"]
