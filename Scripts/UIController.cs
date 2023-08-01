@@ -1,9 +1,7 @@
 using Godot;
-using System;
 
 public partial class UIController : Control
 {
-
 	private Label HpLabel;
 	private Label ScoreLabel;
 	private Container DefeatC;
@@ -12,9 +10,10 @@ public partial class UIController : Control
 
 	[Signal]
 	public delegate void RestartEventHandler();
+
 	[Signal]
 	public delegate void MenuEventHandler();
-	
+
 	public override void _Ready()
 	{
 		HBoxContainer hBox = this.GetNode<HBoxContainer>("HBoxContainer");
@@ -23,7 +22,7 @@ public partial class UIController : Control
 		HpLabel = vBox.GetNode<Label>("HPLabel");
 
 		ScoreLabel = hBox.GetNode<Label>("ScoreLabel");
-		
+
 		DefeatC = this.GetNode<PanelContainer>("PanelContainer");
 	}
 
@@ -55,14 +54,7 @@ public partial class UIController : Control
 		menuButton.Disabled = false;
 	}
 
-	private void OnRestartButtonPressed()
-	{
-		EmitSignal(SignalName.Restart);
-	}
+	private void OnRestartButtonPressed() => EmitSignal(SignalName.Restart);
 
-	private void OnMenuButtonPressed()
-	{
-		EmitSignal(SignalName.Menu);
-	}
-
+	private void OnMenuButtonPressed() => EmitSignal(SignalName.Menu);
 }
