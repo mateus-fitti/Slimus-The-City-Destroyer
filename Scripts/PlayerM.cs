@@ -1,5 +1,4 @@
 using Godot;
-using System;
 
 public partial class PlayerM : CharacterBody2D
 {
@@ -17,10 +16,13 @@ public partial class PlayerM : CharacterBody2D
 
 	[Signal]
 	public delegate void HealthUpdateEventHandler(int hp, int maxHp);
+
 	[Signal]
 	public delegate void ScoreUpdateEventHandler(int points);
+
 	[Signal]
 	public delegate void DefeatEventHandler();
+
 	[Signal]
 	public delegate void ResetEventHandler(Vector2 playerPos);
 
@@ -46,7 +48,7 @@ public partial class PlayerM : CharacterBody2D
 
 	private void Moving()
 	{
-		Vector2 movement = new Vector2();
+		Vector2 movement = new();
 		Vector2 previousPos = this.GlobalPosition;
 
 		if (Input.IsActionJustPressed("Up"))
@@ -100,7 +102,7 @@ public partial class PlayerM : CharacterBody2D
 				WinCondition();
 				_Score += PointsPerBuild;
 				EmitSignal(SignalName.ScoreUpdate, _Score);
-				
+
 				animState.Travel("eatingBuilding");
 				animState.Start("eatingBuilding", true);
 			}

@@ -1,11 +1,9 @@
 using Godot;
-using System;
 
 public partial class SelectLevel : HBoxContainer
 {
-
-	Node Menu;
-	PackedScene[] Levels = {null, null};
+	private Node Menu;
+	private PackedScene[] Levels = { null, null };
 
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
@@ -20,7 +18,7 @@ public partial class SelectLevel : HBoxContainer
 	public override void _Process(double delta)
 	{
 	}
-	
+
 	private void OnPlayButtonPressed()
 	{
 		this.Visible = true;
@@ -47,7 +45,6 @@ public partial class SelectLevel : HBoxContainer
 
 		this.QueueFree();
 	}
-
 
 	private void OnLv2ButtonPressed()
 	{

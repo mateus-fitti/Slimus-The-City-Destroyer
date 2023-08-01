@@ -1,9 +1,7 @@
 using Godot;
-using System;
 
 public partial class MapController : TileMap
 {
-
 	[Export] public int MaxBuilds = 5;
 	[Export] public int SpawnChance = 10; // INCREASE MEANS LESS CHANCE TO SPAWN ALL BUILDINGS
 
@@ -22,9 +20,9 @@ public partial class MapController : TileMap
 		Godot.Collections.Array<Vector2I> city = this.GetUsedCells(0);
 		Vector2 localP = this.ToLocal(playerPos);
 		Vector2I mapP = this.LocalToMap(localP);
-		Vector2I atlasBuild = new Vector2I(0, 2); // ATLAS COORD FOR BUILDING
+		Vector2I atlasBuild = new(0, 2); // ATLAS COORD FOR BUILDING
 		int buildCount = 0;
-		RandomNumberGenerator rng = new RandomNumberGenerator();
+		RandomNumberGenerator rng = new();
 
 		foreach (var cell in city)
 		{

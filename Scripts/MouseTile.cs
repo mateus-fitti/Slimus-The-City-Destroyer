@@ -1,9 +1,7 @@
 using Godot;
-using System;
 
 public partial class MouseTile : TileMap
 {
-
 	private Sprite2D HoverTile;
 
 	public override void _Ready()
@@ -13,7 +11,6 @@ public partial class MouseTile : TileMap
 
 	public override void _Process(double delta)
 	{
-
 		Vector2 cellPos = this.ToLocal(GetTrueMousePosition());
 		Vector2I mapPos = this.LocalToMap(cellPos);
 
@@ -46,7 +43,7 @@ public partial class MouseTile : TileMap
 	private Vector2 GetTrueMousePosition()
 	{
 		Vector2 truePosition = GetGlobalMousePosition();
-		truePosition.Y -= this.TileSet.TileSize.Y/2;
+		truePosition.Y -= this.TileSet.TileSize.Y / 2;
 
 		return truePosition;
 	}
