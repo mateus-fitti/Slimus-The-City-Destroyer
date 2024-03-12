@@ -1,14 +1,14 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1710262838
+::res://::1710268483
 GameController.cs::CSharpScript::-1::1710262796::0::1::::<><>::
-GameUI.tscn::PackedScene::5165486445866796423::1710262796::0::1::::<><>::res://Scripts/UIController.cs<>uid://c6amq73p86in0::::res://Assets/healthBar_0.png<>uid://bxjpwvvrqxkkb::::res://Assets/healthBar_1.png<>uid://bewit3dppujd8::::res://Assets/healthBar_2.png<>uid://nlytdu3gdbce::::res://Assets/Fonts/CONCHARS_x2.png
+GameUI.tscn::PackedScene::5165486445866796423::1710268483::0::1::::<><>::res://Scripts/UIController.cs<>uid://c6amq73p86in0::::res://Assets/healthBar_0.png<>uid://bxjpwvvrqxkkb::::res://Assets/healthBar_1.png<>uid://bewit3dppujd8::::res://Assets/healthBar_2.png<>uid://nlytdu3gdbce::::res://Assets/Fonts/CONCHARS_x2.png<>uid://bpo4ycukfdjdp::::res://Assets/Sounds/mixkit-retro-arcade-game-over-470.wav<>uid://du0fetpe34w3m::::res://Assets/Sounds/mixkit-retro-game-notification-212.wav
 icon.svg::CompressedTexture2D::5305454147439452850::1710262796::1710262796::1::::<><>::
-Main.tscn::PackedScene::6641636341442595172::1710262796::0::1::::<><>::uid://k8u0dy3hawk::::res://Assets/Tileset/Isometric CityGrass Tileset.png<>uid://cn8hxauetqh0u::::res://Assets/Background.png<>res://GameController.cs<>uid://cfug2o8li7rml::::res://GameUI.tscn<>uid://be762sdngiarh::::res://PlayerM.tscn<>res://Scripts/MapController.cs<>uid://bbccaljn8xq73::::res://Assets/Tileset/TileHover.png
-menu.tscn::PackedScene::9088572239347741422::1710262796::0::1::::<><>::uid://cn8hxauetqh0u::::res://Assets/Background.png<>res://Scripts/SelectLevel.cs<>uid://bcg4416vahssg::::res://Assets/Fonts/CONCHARS_x3.png<>uid://llrlosc4hbjl::::res://Levels/level_1.png<>uid://nlytdu3gdbce::::res://Assets/Fonts/CONCHARS_x2.png<>res://Scripts/PlayButton.cs<>uid://0g00x61dlis0::::res://Levels/level_2.png
-PlayerM.tscn::PackedScene::2735167540240045385::1710262796::0::1::::<><>::res://Scripts/PlayerM.cs<>uid://baakor4vacd8j::::res://Assets/monster_spritesheet.png
+Main.tscn::PackedScene::6641636341442595172::1710268483::0::1::::<><>::uid://k8u0dy3hawk::::res://Assets/Tileset/Isometric CityGrass Tileset.png<>uid://cn8hxauetqh0u::::res://Assets/Background.png<>res://GameController.cs<>uid://cfug2o8li7rml::::res://GameUI.tscn<>uid://be762sdngiarh::::res://PlayerM.tscn<>res://Scripts/MapController.cs<>uid://bbccaljn8xq73::::res://Assets/Tileset/TileHover.png
+menu.tscn::PackedScene::9088572239347741422::1710268483::0::1::::<><>::uid://cn8hxauetqh0u::::res://Assets/Background.png<>res://Scripts/SelectLevel.cs<>uid://bcg4416vahssg::::res://Assets/Fonts/CONCHARS_x3.png<>uid://llrlosc4hbjl::::res://Levels/level_1.png<>uid://nlytdu3gdbce::::res://Assets/Fonts/CONCHARS_x2.png<>res://Scripts/PlayButton.cs<>uid://du0fetpe34w3m::::res://Assets/Sounds/mixkit-retro-game-notification-212.wav<>uid://0g00x61dlis0::::res://Levels/level_2.png
+PlayerM.tscn::PackedScene::2735167540240045385::1710268483::0::1::::<><>::res://Scripts/PlayerM.cs<>uid://baakor4vacd8j::::res://Assets/monster_spritesheet.png<>uid://btf2oaj68p0qf::::res://Assets/Sounds/mixkit-monster-hungry-belly-sounds-305.wav<>uid://dqp0f0vjanv7x::::res://Assets/Sounds/mixkit-monster-footstep-1975.wav
 README.md::TextFile::-1::1710262796::0::1::::<><>::
 Select.gdshader::Shader::-1::1710262796::0::1::::<><>::
-::res://Assets/::1710262796
+::res://Assets/::1710266475
 Background.png::CompressedTexture2D::5753886923877631794::1710262796::1710262796::1::::<><>::
 eatingBuilding.png::CompressedTexture2D::1077677184253259785::1710262796::1710262796::1::::<><>::
 HealthBar.png::CompressedTexture2D::8363137835548221133::1710262796::1710262796::1::::<><>::
@@ -23,20 +23,26 @@ BungeeSpice-Regular.ttf::FontFile::3723079284683944275::1710262796::1710262796::
 CONCHARS.png::FontFile::4043061968436757502::1710262796::1710262796::1::::<><>::
 CONCHARS_x2.png::FontFile::936654450246134468::1710262796::1710262796::1::::<><>::
 CONCHARS_x3.png::FontFile::2540998632757475018::1710262796::1710262796::1::::<><>::
+::res://Assets/Sounds/::1710268010
+mixkit-monster-footstep-1975.wav::AudioStreamWAV::8314777415321505523::1710266369::1710266483::1::::<><>::
+mixkit-monster-hungry-belly-sounds-305.wav::AudioStreamWAV::3731994976861834289::1710266455::1710266483::1::::<><>::
+mixkit-retro-arcade-game-over-470.wav::AudioStreamWAV::3469958415068321601::1710267688::1710267698::1::::<><>::
+mixkit-retro-game-notification-212.wav::AudioStreamWAV::8614960117166941444::1710268001::1710268010::1::::<><>::
+mixkit-small-monster-growl-1968.wav::::-1::0::0::0::::<><>::
 ::res://Assets/Tileset/::1710262796
 Isometric CityGrass Tileset.png::CompressedTexture2D::22684473026299310::1710262796::1710262796::1::::<><>::
 TileHover.png::CompressedTexture2D::2460860309120560452::1710262796::1710262796::1::::<><>::
-::res://Levels/::1710262796
+::res://Levels/::1710268483
 level_1.png::CompressedTexture2D::795838031186280201::1710262796::1710262796::1::::<><>::
-level_1.tscn::PackedScene::2447306558171584814::1710262796::0::1::::<><>::uid://c1vi1r5r1kki3::::res://Main.tscn
+level_1.tscn::PackedScene::2447306558171584814::1710268483::0::1::::<><>::uid://c1vi1r5r1kki3::::res://Main.tscn
 level_2.png::CompressedTexture2D::1768671184253714725::1710262796::1710262796::1::::<><>::
-level_2.tscn::PackedScene::5451434883065931668::1710262796::0::1::::<><>::uid://c1vi1r5r1kki3::::res://Main.tscn
+level_2.tscn::PackedScene::5451434883065931668::1710268483::0::1::::<><>::uid://c1vi1r5r1kki3::::res://Main.tscn
 ::res://SceneObjects/::1710262796
 LevelSelector.tscn::PackedScene::3349531051045165128::1710262796::0::1::::<><>::uid://llrlosc4hbjl::::res://Levels/level_1.png<>uid://nlytdu3gdbce::::res://Assets/Fonts/CONCHARS_x2.png
-::res://Scripts/::1710262796
+::res://Scripts/::1710268458
 MapController.cs::CSharpScript::-1::1710262796::0::1::::<><>::
 MouseTile.cs::CSharpScript::-1::1710262796::0::1::::<><>::
 PlayButton.cs::CSharpScript::-1::1710262796::0::1::::<><>::
-PlayerM.cs::CSharpScript::-1::1710262796::0::1::::<><>::
-SelectLevel.cs::CSharpScript::-1::1710262796::0::1::::<><>::
-UIController.cs::CSharpScript::-1::1710262796::0::1::::<><>::
+PlayerM.cs::CSharpScript::-1::1710267436::0::1::::<><>::
+SelectLevel.cs::CSharpScript::-1::1710268458::0::1::::<><>::
+UIController.cs::CSharpScript::-1::1710268363::0::1::::<><>::

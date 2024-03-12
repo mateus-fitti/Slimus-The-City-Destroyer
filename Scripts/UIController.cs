@@ -9,6 +9,8 @@ public partial class UIController : Control
 	private Container DefeatC;
 	private TextureProgressBar HpBar;
 	private int FinalScore;
+	private AudioStreamPlayer loseSound;
+	private AudioStreamPlayer buttonSound;
 
 	[Signal]
 	public delegate void RestartEventHandler();
@@ -25,6 +27,9 @@ public partial class UIController : Control
 		ScoreLabel = hBox.GetNode<Label>("ScoreLabel");
 		
 		DefeatC = this.GetNode<PanelContainer>("PanelContainer");
+		
+		loseSound = this.GetNode<AudioStreamPlayer>("AudioSPlayer Defeat");
+		buttonSound = this.GetNode<AudioStreamPlayer>("AudioSPlayer Button");
 	}
 
 	public override void _Process(double delta)
@@ -45,6 +50,8 @@ public partial class UIController : Control
 
 	private void OnPlayerMDefeat()
 	{
+		loseSound.Play();
+		
 		DefeatC.Visible = true;
 		Label defeatLabel = DefeatC.GetNode<Label>("DefeatLabel");
 		Button restartButton = DefeatC.GetNode<Button>("Button");
@@ -57,11 +64,13 @@ public partial class UIController : Control
 
 	private void OnRestartButtonPressed()
 	{
+		buttonSound.Play();
 		EmitSignal(SignalName.Restart);
 	}
 
 	private void OnMenuButtonPressed()
 	{
+		buttonSound.Play();
 		EmitSignal(SignalName.Menu);
 	}
 

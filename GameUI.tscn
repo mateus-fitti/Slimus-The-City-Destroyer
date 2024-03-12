@@ -1,10 +1,12 @@
-[gd_scene load_steps=10 format=3 uid="uid://cfug2o8li7rml"]
+[gd_scene load_steps=12 format=3 uid="uid://cfug2o8li7rml"]
 
 [ext_resource type="Script" path="res://Scripts/UIController.cs" id="1_0uc5q"]
 [ext_resource type="Texture2D" uid="uid://c6amq73p86in0" path="res://Assets/healthBar_0.png" id="2_6cyuo"]
 [ext_resource type="Texture2D" uid="uid://bxjpwvvrqxkkb" path="res://Assets/healthBar_1.png" id="3_rayt5"]
 [ext_resource type="Texture2D" uid="uid://bewit3dppujd8" path="res://Assets/healthBar_2.png" id="4_j03tb"]
 [ext_resource type="FontFile" uid="uid://nlytdu3gdbce" path="res://Assets/Fonts/CONCHARS_x2.png" id="5_hfpel"]
+[ext_resource type="AudioStream" uid="uid://bpo4ycukfdjdp" path="res://Assets/Sounds/mixkit-retro-arcade-game-over-470.wav" id="6_qr8mn"]
+[ext_resource type="AudioStream" uid="uid://du0fetpe34w3m" path="res://Assets/Sounds/mixkit-retro-game-notification-212.wav" id="7_22l6q"]
 
 [sub_resource type="InputEventKey" id="InputEventKey_nojil"]
 device = -1
@@ -128,6 +130,12 @@ theme_override_fonts/font = ExtResource("5_hfpel")
 disabled = true
 shortcut = SubResource("Shortcut_24bgw")
 text = "MENU"
+
+[node name="AudioSPlayer Defeat" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_qr8mn")
+
+[node name="AudioSPlayer Button" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("7_22l6q")
 
 [connection signal="pressed" from="PanelContainer/Button" to="." method="OnRestartButtonPressed"]
 [connection signal="pressed" from="PanelContainer/Button2" to="." method="OnMenuButtonPressed"]

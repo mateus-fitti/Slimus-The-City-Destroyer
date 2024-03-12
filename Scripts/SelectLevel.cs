@@ -6,6 +6,7 @@ public partial class SelectLevel : HBoxContainer
 
 	Node Menu;
 	PackedScene[] Levels = {null, null};
+	private AudioStreamPlayer buttonSound;
 
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
@@ -14,6 +15,8 @@ public partial class SelectLevel : HBoxContainer
 
 		Levels[0] = GD.Load<PackedScene>("res://Levels/level_1.tscn");
 		Levels[1] = GD.Load<PackedScene>("res://Levels/level_2.tscn");
+		
+		buttonSound = this.GetNode<AudioStreamPlayer>("AudioSPlayer Button");
 	}
 
 	// Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -23,6 +26,8 @@ public partial class SelectLevel : HBoxContainer
 	
 	private void OnPlayButtonPressed()
 	{
+		buttonSound.Play();
+		
 		this.Visible = true;
 
 		// foreach (var lv in this.GetChildren())
@@ -40,6 +45,8 @@ public partial class SelectLevel : HBoxContainer
 
 	private void OnLv1ButtonPressed()
 	{
+		buttonSound.Play();
+		
 		GD.Print("APERTADO");
 		var instance = Levels[0].Instantiate();
 
@@ -51,6 +58,8 @@ public partial class SelectLevel : HBoxContainer
 
 	private void OnLv2ButtonPressed()
 	{
+		buttonSound.Play();
+		
 		var instance = Levels[1].Instantiate();
 
 		this.GetTree().Root.AddChild(instance);

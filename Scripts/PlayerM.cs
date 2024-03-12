@@ -14,6 +14,7 @@ public partial class PlayerM : CharacterBody2D
 	public TileMap LevelMap;
 	private AnimationTree animTree;
 	private AnimationNodeStateMachinePlayback animState;
+	private AudioStreamPlayer stepSound;
 
 	[Signal]
 	public delegate void HealthUpdateEventHandler(int hp, int maxHp);
@@ -37,6 +38,8 @@ public partial class PlayerM : CharacterBody2D
 		animState = (AnimationNodeStateMachinePlayback)animTree.Get("parameters/playback");
 
 		animState.Start("idle");
+		
+		stepSound = this.GetNode<AudioStreamPlayer>("AudioSPlayer Footstep");
 	}
 
 	public override void _PhysicsProcess(double delta)
@@ -111,6 +114,8 @@ public partial class PlayerM : CharacterBody2D
 			}
 			cellPos = LevelMap.MapToLocal(mapPos);
 			this.GlobalPosition = LevelMap.ToGlobal(cellPos);
+			
+			stepSound.Play();
 		}
 		else
 			canMove = false;
