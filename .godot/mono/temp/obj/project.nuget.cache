@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "0ZuYOrN0ilQj1ZTHn8UzACYJw3w6vgxoVbLAxrKwC3ZNPV1o+fIeTQE58QKWSmiC2JisPDP+BQ6XD/qwas8A1A==",
+  "dgSpecHash": "Ua9N0HGHy/ZdgZt0dWegKsWJbFHjpuyx/J6LuRZ6Y3Ldog19jQEVc2Lpg1ppWdKnRF45LKsiApcVjONnPgXqdQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mateu\\Documents\\Godot Projects\\YouMonster\\YouMonster.csproj",
+  "projectFilePath": "C:\\Users\\MateusZ\\Documents\\GitHub\\Slimus-The-City-Destroyer\\YouMonster.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\mateu\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder\\godot.sourcegenerators\\4.0.3\\godot.sourcegenerators.4.0.3.nupkg.sha512",
-    "C:\\Users\\mateu\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder\\godotsharp\\4.0.3\\godotsharp.4.0.3.nupkg.sha512",
-    "C:\\Users\\mateu\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder\\godotsharpeditor\\4.0.3\\godotsharpeditor.4.0.3.nupkg.sha512",
-    "C:\\Users\\mateu\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.12\\microsoft.netcore.app.ref.6.0.12.nupkg.sha512",
-    "C:\\Users\\mateu\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.12\\microsoft.windowsdesktop.app.ref.6.0.12.nupkg.sha512",
-    "C:\\Users\\mateu\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.12\\microsoft.aspnetcore.app.ref.6.0.12.nupkg.sha512"
+    "C:\\Users\\MateusZ\\.nuget\\packages\\godot.sourcegenerators\\4.1.1\\godot.sourcegenerators.4.1.1.nupkg.sha512",
+    "C:\\Users\\MateusZ\\.nuget\\packages\\godotsharp\\4.1.1\\godotsharp.4.1.1.nupkg.sha512",
+    "C:\\Users\\MateusZ\\.nuget\\packages\\godotsharpeditor\\4.1.1\\godotsharpeditor.4.1.1.nupkg.sha512",
+    "C:\\Users\\MateusZ\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\MateusZ\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\MateusZ\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512"
   ],
   "logs": []
 }

@@ -2,13 +2,13 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "Godot.SourceGenerators/4.0.3": {
+      "Godot.SourceGenerators/4.1.1": {
         "type": "package",
         "build": {
           "build/Godot.SourceGenerators.props": {}
         }
       },
-      "GodotSharp/4.0.3": {
+      "GodotSharp/4.1.1": {
         "type": "package",
         "compile": {
           "lib/net6.0/GodotSharp.dll": {
@@ -21,10 +21,10 @@
           }
         }
       },
-      "GodotSharpEditor/4.0.3": {
+      "GodotSharpEditor/4.1.1": {
         "type": "package",
         "dependencies": {
-          "GodotSharp": "4.0.3"
+          "GodotSharp": "4.1.1"
         },
         "compile": {
           "lib/net6.0/GodotSharpEditor.dll": {
@@ -40,37 +40,40 @@
     }
   },
   "libraries": {
-    "Godot.SourceGenerators/4.0.3": {
-      "sha512": "2hehxauxcdFV59mJuYtKLnIPY+09kH7tkGQYv+YnTY0G1Axea9/GPi4Dc0svqqC3/NBQqwMBGpNrFFppy27+pg==",
+    "Godot.SourceGenerators/4.1.1": {
+      "sha512": "Kti3AjqGFT/myqAg87ykwoGAMrSUZkQaLdpZRWqvO0w2VhDtwUgEEKZk5HK94GzlWHOHZx2UW2fO88G7h56VgA==",
       "type": "package",
-      "path": "godot.sourcegenerators/4.0.3",
+      "path": "godot.sourcegenerators/4.1.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "analyzers/dotnet/cs/Godot.SourceGenerators.dll",
         "build/Godot.SourceGenerators.props",
-        "godot.sourcegenerators.4.0.3.nupkg.sha512",
+        "godot.sourcegenerators.4.1.1.nupkg.sha512",
         "godot.sourcegenerators.nuspec"
       ]
     },
-    "GodotSharp/4.0.3": {
-      "sha512": "zyqDcUMn8B2mO0kp3Vkhjww+56vZgyVOir83KD/VYAWN9dziAUI4Yh4Pb7WdOE+i0HrivS2cNlndC+2dqwFgrw==",
+    "GodotSharp/4.1.1": {
+      "sha512": "r07Z+O82m5dAqeJMYHDJCGdD0p1gb8vNVi+kIFYGjDNk39Ys3fgsm+x7ZpHEfNSW2oHTn62SCuCE38UAVy17MA==",
       "type": "package",
-      "path": "godotsharp/4.0.3",
+      "path": "godotsharp/4.1.1",
       "files": [
         ".nupkg.metadata",
-        "godotsharp.4.0.3.nupkg.sha512",
+        ".signature.p7s",
+        "godotsharp.4.1.1.nupkg.sha512",
         "godotsharp.nuspec",
         "lib/net6.0/GodotSharp.dll",
         "lib/net6.0/GodotSharp.xml"
       ]
     },
-    "GodotSharpEditor/4.0.3": {
-      "sha512": "FpyzFn/R+tn3IOdHZGQi7oNQwtLSXvCxg7dbxaYWyEudLrHmx6f7QMwTlrX1k4bcyfBXpTaBLGWmrpYdswTMyg==",
+    "GodotSharpEditor/4.1.1": {
+      "sha512": "t29ltWPBHhWDKncK2XFXmHx29jGOqtsR9PFdkjIcRWG5+PdcCJNrCng5cls/H+zGtluGF5L6rNBFbFlBBvTgkA==",
       "type": "package",
-      "path": "godotsharpeditor/4.0.3",
+      "path": "godotsharpeditor/4.1.1",
       "files": [
         ".nupkg.metadata",
-        "godotsharpeditor.4.0.3.nupkg.sha512",
+        ".signature.p7s",
+        "godotsharpeditor.4.1.1.nupkg.sha512",
         "godotsharpeditor.nuspec",
         "lib/net6.0/GodotSharpEditor.dll",
         "lib/net6.0/GodotSharpEditor.xml"
@@ -79,30 +82,25 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Godot.SourceGenerators >= 4.0.3",
-      "GodotSharp >= 4.0.3",
-      "GodotSharpEditor >= 4.0.3"
+      "Godot.SourceGenerators >= 4.1.1",
+      "GodotSharp >= 4.1.1",
+      "GodotSharpEditor >= 4.1.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mateu\\.nuget\\packages\\": {},
-    "C:\\Users\\mateu\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder": {}
+    "C:\\Users\\MateusZ\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mateu\\Documents\\Godot Projects\\YouMonster\\YouMonster.csproj",
+      "projectUniqueName": "C:\\Users\\MateusZ\\Documents\\GitHub\\Slimus-The-City-Destroyer\\YouMonster.csproj",
       "projectName": "YouMonster",
-      "projectPath": "C:\\Users\\mateu\\Documents\\Godot Projects\\YouMonster\\YouMonster.csproj",
-      "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mateu\\Documents\\Godot Projects\\YouMonster\\.godot\\mono\\temp\\obj\\",
+      "projectPath": "C:\\Users\\MateusZ\\Documents\\GitHub\\Slimus-The-City-Destroyer\\YouMonster.csproj",
+      "packagesPath": "C:\\Users\\MateusZ\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MateusZ\\Documents\\GitHub\\Slimus-The-City-Destroyer\\.godot\\mono\\temp\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Users\\mateu\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\mateu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Users\\mateu\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config"
+        "C:\\Users\\MateusZ\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -128,15 +126,15 @@
         "dependencies": {
           "Godot.SourceGenerators": {
             "target": "Package",
-            "version": "[4.0.3, )"
+            "version": "[4.1.1, )"
           },
           "GodotSharp": {
             "target": "Package",
-            "version": "[4.0.3, )"
+            "version": "[4.1.1, )"
           },
           "GodotSharpEditor": {
             "target": "Package",
-            "version": "[4.0.3, )"
+            "version": "[4.1.1, )"
           }
         },
         "imports": [
@@ -153,15 +151,15 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.12, 6.0.12]"
+            "version": "[6.0.26, 6.0.26]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.12, 6.0.12]"
+            "version": "[6.0.26, 6.0.26]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.12, 6.0.12]"
+            "version": "[6.0.26, 6.0.26]"
           }
         ],
         "frameworkReferences": {
@@ -169,7 +167,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

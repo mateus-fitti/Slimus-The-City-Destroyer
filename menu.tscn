@@ -119,7 +119,7 @@ THE CITY DESTROYER"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[connection signal="pressed" from="Control/CenterContainer/Button" to="Control/HBoxContainer" method="OnPlayButtonPressed"]
 [connection signal="pressed" from="Control/CenterContainer/Button" to="Control/CenterContainer/Button" method="OnSelfButtonPressed"]
+[connection signal="pressed" from="Control/CenterContainer/Button" to="Control/HBoxContainer" method="OnPlayButtonPressed"]
 [connection signal="pressed" from="Control/HBoxContainer/PanelContainer/Button" to="Control/HBoxContainer" method="OnLv1ButtonPressed"]
 [connection signal="pressed" from="Control/HBoxContainer/PanelContainer2/Button" to="Control/HBoxContainer" method="OnLv2ButtonPressed"]

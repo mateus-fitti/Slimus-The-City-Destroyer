@@ -15,3 +15,21 @@ C:\Users\mateu\Documents\Godot Projects\YouMonster\.godot\mono\temp\obj\Debug\re
 C:\Users\mateu\Documents\Godot Projects\YouMonster\.godot\mono\temp\obj\Debug\YouMonster.pdb
 C:\Users\mateu\Documents\Godot Projects\YouMonster\.godot\mono\temp\obj\Debug\YouMonster.genruntimeconfig.cache
 C:\Users\mateu\Documents\Godot Projects\YouMonster\.godot\mono\temp\obj\Debug\ref\YouMonster.dll
+C:\Users\MateusZ\Documents\GitHub\Slimus-The-City-Destroyer\.godot\mono\temp\bin\Debug\YouMonster.deps.json
+C:\Users\MateusZ\Documents\GitHub\Slimus-The-City-Destroyer\.godot\mono\temp\bin\Debug\YouMonster.runtimeconfig.json
+C:\Users\MateusZ\Documents\GitHub\Slimus-The-City-Destroyer\.godot\mono\temp\bin\Debug\YouMonster.dll
+C:\Users\MateusZ\Documents\GitHub\Slimus-The-City-Destroyer\.godot\mono\temp\bin\Debug\YouMonster.pdb
+C:\Users\MateusZ\Documents\GitHub\Slimus-The-City-Destroyer\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\MateusZ\Documents\GitHub\Slimus-The-City-Destroyer\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\MateusZ\Documents\GitHub\Slimus-The-City-Destroyer\.godot\mono\temp\obj\Debug\YouMonster.csproj.AssemblyReference.cache
+C:\Users\MateusZ\Documents\GitHub\Slimus-The-City-Destroyer\.godot\mono\temp\obj\Debug\YouMonster.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MateusZ\Documents\GitHub\Slimus-The-City-Destroyer\.godot\mono\temp\obj\Debug\YouMonster.AssemblyInfoInputs.cache
+C:\Users\MateusZ\Documents\GitHub\Slimus-The-City-Destroyer\.godot\mono\temp\obj\Debug\YouMonster.AssemblyInfo.cs
+C:\Users\MateusZ\Documents\GitHub\Slimus-The-City-Destroyer\.godot\mono\temp\obj\Debug\YouMonster.csproj.CoreCompileInputs.cache
+C:\Users\MateusZ\Documents\GitHub\Slimus-The-City-Destroyer\.godot\mono\temp\obj\Debug\YouMonster.sourcelink.json
+C:\Users\MateusZ\Documents\GitHub\Slimus-The-City-Destroyer\.godot\mono\temp\obj\Debug\YouMonster.csproj.CopyComplete
+C:\Users\MateusZ\Documents\GitHub\Slimus-The-City-Destroyer\.godot\mono\temp\obj\Debug\YouMonster.dll
+C:\Users\MateusZ\Documents\GitHub\Slimus-The-City-Destroyer\.godot\mono\temp\obj\Debug\refint\YouMonster.dll
+C:\Users\MateusZ\Documents\GitHub\Slimus-The-City-Destroyer\.godot\mono\temp\obj\Debug\YouMonster.pdb
+C:\Users\MateusZ\Documents\GitHub\Slimus-The-City-Destroyer\.godot\mono\temp\obj\Debug\YouMonster.genruntimeconfig.cache
+C:\Users\MateusZ\Documents\GitHub\Slimus-The-City-Destroyer\.godot\mono\temp\obj\Debug\ref\YouMonster.dll

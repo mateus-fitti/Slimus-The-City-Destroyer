@@ -1,10 +1,25 @@
-[gd_scene load_steps=19 format=3 uid="uid://be762sdngiarh"]
+[gd_scene load_steps=18 format=3 uid="uid://be762sdngiarh"]
 
 [ext_resource type="Script" path="res://Scripts/PlayerM.cs" id="1_26sqr"]
 [ext_resource type="Texture2D" uid="uid://baakor4vacd8j" path="res://Assets/monster_spritesheet.png" id="2_5er26"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_2l74l"]
 height = 22.0
+
+[sub_resource type="Animation" id="Animation_diu6c"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [2]
+}
 
 [sub_resource type="Animation" id="Animation_bphpf"]
 resource_name = "eatingBuilding"
@@ -21,21 +36,6 @@ tracks/0/keys = {
 "transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
 "update": 1,
 "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
-}
-
-[sub_resource type="Animation" id="Animation_diu6c"]
-length = 0.001
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Sprite2D:frame")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [2]
 }
 
 [sub_resource type="Animation" id="Animation_jpive"]
@@ -95,8 +95,6 @@ states/idle/position = Vector2(363, 100)
 transitions = ["Start", "idle", SubResource("AnimationNodeStateMachineTransition_s6d3w"), "idle", "eatingBuilding", SubResource("AnimationNodeStateMachineTransition_vq33m"), "eatingBuilding", "idle", SubResource("AnimationNodeStateMachineTransition_mfwt0"), "eatingBuilding", "idle 2", SubResource("AnimationNodeStateMachineTransition_sryhc"), "idle 2", "eatingBuilding", SubResource("AnimationNodeStateMachineTransition_4xf2r"), "idle 2", "idle", SubResource("AnimationNodeStateMachineTransition_0vvv8")]
 graph_offset = Vector2(0, -65.9228)
 
-[sub_resource type="AnimationNodeStateMachinePlayback" id="AnimationNodeStateMachinePlayback_opm10"]
-
 [node name="CharacterBody2D" type="CharacterBody2D"]
 texture_filter = 1
 script = ExtResource("1_26sqr")
@@ -122,4 +120,3 @@ libraries = {
 tree_root = SubResource("AnimationNodeStateMachine_u5i60")
 anim_player = NodePath("../AnimationPlayer")
 active = true
-parameters/playback = SubResource("AnimationNodeStateMachinePlayback_opm10")

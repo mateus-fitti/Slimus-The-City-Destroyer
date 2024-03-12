@@ -1,5 +1,6 @@
 is_global = true
-build_property.GodotProjectDir = C:\Users\mateu\Documents\Godot Projects\YouMonster\
+build_property.GodotDisabledSourceGenerators = 
+build_property.GodotProjectDir = C:\Users\MateusZ\Documents\GitHub\Slimus-The-City-Destroyer\
 build_property.GodotProjectDirBase64 = 
 build_property.GodotSourceGenerators = 
 build_property.IsGodotToolsProject = 
@@ -12,4 +13,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = YouMonster
-build_property.ProjectDir = C:\Users\mateu\Documents\Godot Projects\YouMonster\
+build_property.ProjectDir = C:\Users\MateusZ\Documents\GitHub\Slimus-The-City-Destroyer\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

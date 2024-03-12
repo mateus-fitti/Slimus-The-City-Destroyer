@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mateu\\Documents\\Godot Projects\\YouMonster\\YouMonster.csproj": {}
+    "C:\\Users\\MateusZ\\Documents\\GitHub\\Slimus-The-City-Destroyer\\YouMonster.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mateu\\Documents\\Godot Projects\\YouMonster\\YouMonster.csproj": {
+    "C:\\Users\\MateusZ\\Documents\\GitHub\\Slimus-The-City-Destroyer\\YouMonster.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mateu\\Documents\\Godot Projects\\YouMonster\\YouMonster.csproj",
+        "projectUniqueName": "C:\\Users\\MateusZ\\Documents\\GitHub\\Slimus-The-City-Destroyer\\YouMonster.csproj",
         "projectName": "YouMonster",
-        "projectPath": "C:\\Users\\mateu\\Documents\\Godot Projects\\YouMonster\\YouMonster.csproj",
-        "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mateu\\Documents\\Godot Projects\\YouMonster\\.godot\\mono\\temp\\obj\\",
+        "projectPath": "C:\\Users\\MateusZ\\Documents\\GitHub\\Slimus-The-City-Destroyer\\YouMonster.csproj",
+        "packagesPath": "C:\\Users\\MateusZ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MateusZ\\Documents\\GitHub\\Slimus-The-City-Destroyer\\.godot\\mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Users\\mateu\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\mateu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Users\\mateu\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config"
+          "C:\\Users\\MateusZ\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -44,15 +40,15 @@
           "dependencies": {
             "Godot.SourceGenerators": {
               "target": "Package",
-              "version": "[4.0.3, )"
+              "version": "[4.1.1, )"
             },
             "GodotSharp": {
               "target": "Package",
-              "version": "[4.0.3, )"
+              "version": "[4.1.1, )"
             },
             "GodotSharpEditor": {
               "target": "Package",
-              "version": "[4.0.3, )"
+              "version": "[4.1.1, )"
             }
           },
           "imports": [
@@ -69,15 +65,15 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.12, 6.0.12]"
+              "version": "[6.0.26, 6.0.26]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.12, 6.0.12]"
+              "version": "[6.0.26, 6.0.26]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.12, 6.0.12]"
+              "version": "[6.0.26, 6.0.26]"
             }
           ],
           "frameworkReferences": {
@@ -85,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
