@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1710268483
+::res://::1711994653
 GameController.cs::CSharpScript::-1::1710262796::0::1::::<><>::
 GameUI.tscn::PackedScene::5165486445866796423::1710268483::0::1::::<><>::res://Scripts/UIController.cs<>uid://c6amq73p86in0::::res://Assets/healthBar_0.png<>uid://bxjpwvvrqxkkb::::res://Assets/healthBar_1.png<>uid://bewit3dppujd8::::res://Assets/healthBar_2.png<>uid://nlytdu3gdbce::::res://Assets/Fonts/CONCHARS_x2.png<>uid://bpo4ycukfdjdp::::res://Assets/Sounds/mixkit-retro-arcade-game-over-470.wav<>uid://du0fetpe34w3m::::res://Assets/Sounds/mixkit-retro-game-notification-212.wav
 icon.svg::CompressedTexture2D::5305454147439452850::1710262796::1710262796::1::::<><>::
@@ -38,7 +38,7 @@ level_1.tscn::PackedScene::2447306558171584814::1710268483::0::1::::<><>::uid://
 level_2.png::CompressedTexture2D::1768671184253714725::1710262796::1710262796::1::::<><>::
 level_2.tscn::PackedScene::5451434883065931668::1710268483::0::1::::<><>::uid://c1vi1r5r1kki3::::res://Main.tscn
 ::res://SceneObjects/::1710262796
-LevelSelector.tscn::PackedScene::3349531051045165128::1710262796::0::1::::<><>::uid://llrlosc4hbjl::::res://Levels/level_1.png<>uid://nlytdu3gdbce::::res://Assets/Fonts/CONCHARS_x2.png
+LevelSelector.tscn::PackedScene::3349531051045165128::1710262796::0::1::::<><>::uid://llrlosc4hbjl
 ::res://Scripts/::1710268458
 MapController.cs::CSharpScript::-1::1710262796::0::1::::<><>::
 MouseTile.cs::CSharpScript::-1::1710262796::0::1::::<><>::
